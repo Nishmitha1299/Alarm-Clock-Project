@@ -6,7 +6,6 @@ const seconds_ele = document.getElementById("seconds");
 const am_pm_ele = document.getElementById("am_pm");
 const setAlarm = document.querySelector("#set_alarm");
 const alarmList = document.getElementById("alarm_list");
-// alarmList.classList.add("alarm-clock-body");
 alarmList.style.fontWeight = "bold";
     
 
