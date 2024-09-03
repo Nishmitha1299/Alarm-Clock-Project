@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alarm Clock</title>
+        <link rel="stylesheet" href="alarm.css"/>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body class="alarm-clock-body">
+        <h1>Alarm Clock ⏰</h1>
+        <div id="alarm-clock-container">
+            <h3 id="current_time"></h3>
+        </div>
+        <div>
+            <form>
+                <select id="hour"></select>
+                <!-- <input type="number" value="00" name="hour" id="hour" min="0" max="24" required> -->
+                <label> : </label>
+                <select id="minutes"></select>
+                <label> : </label>
+                <select id="seconds"></select>
+                <select id="am_pm">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+                <input type="button" value="Set Alarm" id="set_alarm">
+            </form>
+        </div>
+
+        <div id="alarm-list-container">
+            <ul id="alarm_list">
+            </ul>
+        </div>
+        
+
+        <script src="alarm.js"></script>
+
+    </body>
+</html>
