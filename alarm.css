@@ -55,12 +55,12 @@ select {
 }
 
 select:hover {
-    background-color: #e0e0e0; /* light gray background on hover */
+    background-color: #e0e0e0;
 }
 
 #set_alarm {
     padding: 10px 20px;
-    background-color: #4CAF50; /* green background */
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -68,7 +68,7 @@ select:hover {
 }
 
 #set_alarm:hover {
-    background-color: #3e8e41; /* darker green background on hover */
+    background-color: #3e8e41;
 }
 
 /* Alarm list styles */
@@ -80,8 +80,8 @@ select:hover {
     box-shadow: 0 0 5px rgba(247, 243, 243, 0.7);
     text-align: center;
     padding: 20px;
-    display: flex; /* make the list items display as flex items */
-    flex-wrap: wrap; /*allow the list items to wrap to the next line*/
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
     margin: auto;
     margin-top: 10px;
@@ -97,10 +97,10 @@ select:hover {
 #alarm_list li {
     padding: 10px;
     border-bottom: 1px solid #ccc;
-    margin: 10px; /* add some margin to each list item */
-    background-color: #f9f9f9; /* add a light gray background to each list item */
-    border-radius: 5px; /* add a subtle border radius to each list item */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); /* add a subtle box shadow to each list item */
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
 #alarm_list li:last-child {
@@ -108,7 +108,7 @@ select:hover {
 }
 
 .delete-button {
-    background-color: #f53030; /* red background */
+    background-color: #f53030; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -119,5 +119,5 @@ select:hover {
 }
 
 .delete-button:hover {
-    background-color: #cc0000; /* darker red background on hover */
+    background-color: #cc0000;
 }
