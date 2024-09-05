@@ -1,7 +1,5 @@
 # Alarm-Clock-Project
 
-# Alarm-Clock-Project
-
 Overview:
 This is a simple Alarm Clock built using Vanilla JavaScript, HTML, and CSS. The user can set a specific time for the alarm, and the clock will notify them when the time is reached.
 
